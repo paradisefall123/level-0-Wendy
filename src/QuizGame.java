@@ -34,7 +34,7 @@ public class QuizGame {
 			score++;
 			JOptionPane.showMessageDialog(null, "Correct");
 		}
-		String quiz = JOptionPane.showInputDialog("Fourth question, HOW MANY COUNTRIES HAVE MS. MARIA GONE TO?");
+		String quiz = JOptionPane.showInputDialog("Fourth question, HOW MANY COUNTRIES HAS MS. MARIA GONE TO?");
 		if (quiz.equals("22")) {
 			score++;
 		}
