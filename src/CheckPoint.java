@@ -8,8 +8,14 @@ public class CheckPoint {
 		JOptionPane.showMessageDialog(null, color + " is also my favorite color!");
         Robot bobby=new Robot();
         bobby.penDown();
-        bobby.turn(90);
+        bobby.setSpeed(100);
+        bobby.turn(120);
         bobby.move(200);
-        bobby.turn(degrees);
+        bobby.turn(120);
+        bobby.move(200);
+        bobby.turn(120);
+        bobby.move(200);
+        bobby.turn(120);
+        
 	}
 }
