@@ -16,6 +16,15 @@ public class IfElse {
 		} else {
 			JOptionPane.showMessageDialog(null, "Don't you wish you could be young!");
 		}
-
+		String animal = JOptionPane.showInputDialog("What is your favorite animal? (type it with no capitals)");
+		if (animal.equals("panda")) {
+			JOptionPane.showMessageDialog(null, "Pandas go bleat");
+		} else if (animal.equals("fox")) {
+			JOptionPane.showMessageDialog(null, "Foxes go scream ");
+		} else if (animal.equals("turtle")) {
+			JOptionPane.showMessageDialog(null, ("turtle go hiss"));
+		} else {
+			JOptionPane.showMessageDialog(null, "I don't know that animal!");
+		}
 	}
 }
