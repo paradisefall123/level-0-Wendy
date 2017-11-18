@@ -8,8 +8,12 @@ public class ParseInt {
 			JOptionPane.showMessageDialog(null,"Get more flour!");
 		}String suga =JOptionPane.showInputDialog("How many people are you going to give kookies to?");
 		int people=Integer.parseInt(suga);
-		if(people<30){
+		if(people>30){
 			JOptionPane.showMessageDialog(null,"You are going to make two batches!");
+		}String friends = JOptionPane.showInputDialog("How many batches of cookies did you make!");
+		int batches = Integer.parseInt(friends);	
+		if(batches>2){
+			JOptionPane.showMessageDialog(null, "You are lucky to you have so many friends!");
+		}
 		}
 	}
-}
