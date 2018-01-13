@@ -6,7 +6,7 @@ public class ObedientRobot {
 	static Robot charlie = new Robot();
 
 	public static void main(String[] args) {
-		String color = JOptionPane.showInputDialog("What color do you want red, green, and blue?");
+		String color = JOptionPane.showInputDialog("What color do you want black, yellow, and blue?");
 		if(color.equalsIgnoreCase("red")) {
 			charlie.setPenColor(255, 0, 0);
 		}else if(color.equalsIgnoreCase("green")) {
