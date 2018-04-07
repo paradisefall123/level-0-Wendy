@@ -15,22 +15,22 @@ void setup() {
 
 void draw() {
   background(backgroundImage);
-  fill(83, 15, 245);
-  fill(156, 209, 211);
+    fill(83, 15, 245);
   rect(mouseX, 900, 200, 100);
+  fill(156, 209, 211);
   ellipse(xPos, yPos, 100, 100);
   xPos=xPos+xDir*7;
   yPos=yPos+yDir*7;
   if (xPos>width-20 || xPos<20) {
     xDir=-xDir;
   }
-  if (intersects(xPos, yPos, mouseX, paddleL) || yPos<0) { 
+  if (intersects(xPos, yPos, mouseX, 200) || yPos<0) { 
     yDir=-yDir;
   }
 }
 
 boolean  intersects( int xPos, int yPos, int mouseX, int paddleL) {
-  if (yPos>821 && xPos> mouseX && xPos<mouseX+ paddleL) {
+  if (yPos>900 && xPos> mouseX && xPos<(mouseX)+ paddleL) {
     return true;
   } else {
     return false;
