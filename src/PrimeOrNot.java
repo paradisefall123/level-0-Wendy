@@ -4,7 +4,7 @@ public class PrimeOrNot {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String number = JOptionPane.showInputDialog("Plase give me a number.");
+		String number = JOptionPane.showInputDialog("Please give me a number.");
 
 		int x = Integer.parseInt(number);
 		boolean isprime = true;

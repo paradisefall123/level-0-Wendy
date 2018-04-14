@@ -20,6 +20,7 @@
 /ObedientRobot.class
 /OddlyLoopy.class
 /ParseInt.class
+/PrimeOrNot.class
 /QuizGame.class
 /Remarkable.class
 /Riddler.class
@@ -34,4 +35,5 @@
 /YearsAlive.class
 /knockknockjokes.class
 /warmup.class
-/PrimeOrNot.class
+/Fibonacci.class
+/Houses.class
