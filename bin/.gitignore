@@ -6,12 +6,14 @@
 /CheckPoint.class
 /Creeper.class
 /ElTortuga.class
+/Fibonacci.class
 /FizzBuzz.class
 /FlamingNinjaStar.class
 /ForLoop.class
 /Graffiti.class
 /GreetSomething.class
 /Horoscope.class
+/Houses.class
 /IfElse.class
 /MadlibsOfTheAmazon.class
 /Magic8Ball.class
@@ -35,5 +37,4 @@
 /YearsAlive.class
 /knockknockjokes.class
 /warmup.class
-/Fibonacci.class
-/Houses.class
+/ForLoopGaulet.class
