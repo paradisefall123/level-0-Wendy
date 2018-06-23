@@ -34,14 +34,10 @@ public class ObedientRobot {
 
 	private static void drawSquare() {
 		charlie.penDown();
-		charlie.setSpeed(30);
-		charlie.move(100);
-		charlie.turn(90);
-		charlie.move(100);
-		charlie.turn(90);
-		charlie.move(100);
-		charlie.turn(90);
-		charlie.move(100);
+		for(int i=0;i<5;i++) {
+			charlie.move(100);
+			charlie.turn(90);
+		}
 
 	}
 
